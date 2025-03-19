@@ -9,7 +9,6 @@ public class NasaAnswer {
     String service_version;
     String title;
     String url;
-
     public NasaAnswer(@JsonProperty("copyright") String copyright,
                       @JsonProperty("date") String date,
                       @JsonProperty("explanation") String explanation,
