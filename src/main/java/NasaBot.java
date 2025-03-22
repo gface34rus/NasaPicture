@@ -17,12 +17,6 @@ public class NasaBot extends TelegramLongPollingBot {
         TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
         botsApi.registerBot(this);
     }
-
-
-
-
-
-
     /**
      * Processes updates from Telegram.
      * @param update the update to be processed
