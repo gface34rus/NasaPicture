@@ -68,14 +68,10 @@ public class NasaBot extends TelegramLongPollingBot {
             e.printStackTrace();
         }
     }
-
-
     @Override
     public String getBotUsername() {
         return botUserName;
     }
-
-
 
     @Override
     public String getBotToken() {
