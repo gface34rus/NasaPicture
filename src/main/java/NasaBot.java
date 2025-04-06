@@ -53,9 +53,6 @@ public class NasaBot extends TelegramLongPollingBot {
         }
     }
 
-
-
-
     /**
      * Sends a message to the specified chat.
      * @param chatId the identifier of the chat
@@ -76,11 +73,9 @@ public class NasaBot extends TelegramLongPollingBot {
         return botUserName;
     }
 
-
     @Override
     public String getBotToken() {
         return botToken;
     }
-
 }
 
