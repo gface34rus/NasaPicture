@@ -20,6 +20,8 @@ public class NasaBot extends TelegramLongPollingBot {
 
 
 
+
+
     /**
      * Processes updates from Telegram.
      * @param update the update to be processed
@@ -51,6 +53,8 @@ public class NasaBot extends TelegramLongPollingBot {
                     sendMessage(chatId, "Bad command");
             }
         }
+
+
     }
 
     /**
@@ -77,5 +81,7 @@ public class NasaBot extends TelegramLongPollingBot {
     public String getBotToken() {
         return botToken;
     }
+
+
 }
 
