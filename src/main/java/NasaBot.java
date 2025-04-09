@@ -17,8 +17,11 @@ public class NasaBot extends TelegramLongPollingBot {
         TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
         botsApi.registerBot(this);
     }
+
+
     /**
      * Processes updates from Telegram.
+     *
      * @param update the update to be processed
      */
     @Override
@@ -50,10 +53,12 @@ public class NasaBot extends TelegramLongPollingBot {
         }
     }
 
+
     /**
      * Sends a message to the specified chat.
+     *
      * @param chatId the identifier of the chat
-     * @param text the text of the message
+     * @param text   the text of the message
      */
     void sendMessage(long chatId, String text) {
         SendMessage sendMessage = new SendMessage();
@@ -65,13 +70,16 @@ public class NasaBot extends TelegramLongPollingBot {
             e.printStackTrace();
         }
     }
+
     @Override
     public String getBotUsername() {
         return botUserName;
     }
+
     @Override
     public String getBotToken() {
         return botToken;
     }
+
 }
 
