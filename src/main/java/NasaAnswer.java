@@ -1,6 +1,8 @@
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class NasaAnswer {
+
+
     String copyright;
     String date;
     String explanation;
@@ -9,6 +11,9 @@ public class NasaAnswer {
     String service_version;
     String title;
     String url;
+
+
+
     public NasaAnswer(@JsonProperty("copyright") String copyright,
                       @JsonProperty("date") String date,
                       @JsonProperty("explanation") String explanation,
