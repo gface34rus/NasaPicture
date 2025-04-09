@@ -17,8 +17,6 @@ public class NasaBot extends TelegramLongPollingBot {
         TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
         botsApi.registerBot(this);
     }
-
-
     /**
      * Processes updates from Telegram.
      * @param update the update to be processed
@@ -50,8 +48,6 @@ public class NasaBot extends TelegramLongPollingBot {
                     sendMessage(chatId, "Bad command");
             }
         }
-
-
     }
 
     /**
@@ -73,12 +69,9 @@ public class NasaBot extends TelegramLongPollingBot {
     public String getBotUsername() {
         return botUserName;
     }
-
     @Override
     public String getBotToken() {
         return botToken;
     }
-
-
 }
 
