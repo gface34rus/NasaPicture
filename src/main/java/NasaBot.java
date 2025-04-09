@@ -19,9 +19,6 @@ public class NasaBot extends TelegramLongPollingBot {
     }
 
 
-
-
-
     /**
      * Processes updates from Telegram.
      * @param update the update to be processed
