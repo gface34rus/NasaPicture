@@ -80,6 +80,5 @@ public class NasaBot extends TelegramLongPollingBot {
     public String getBotToken() {
         return botToken;
     }
-
 }
 
