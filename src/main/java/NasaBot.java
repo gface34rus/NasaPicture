@@ -11,12 +11,15 @@ public class NasaBot extends TelegramLongPollingBot {
     String botUserName;
     String botToken;
 
+
+
     public NasaBot(String botUserName, String botToken) throws TelegramApiException {
         this.botUserName = botUserName;
         this.botToken = botToken;
         TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
         botsApi.registerBot(this);
     }
+
 
 
     /**
@@ -54,6 +57,8 @@ public class NasaBot extends TelegramLongPollingBot {
     }
 
 
+
+
     /**
      * Sends a message to the specified chat.
      *
@@ -71,14 +76,20 @@ public class NasaBot extends TelegramLongPollingBot {
         }
     }
 
+
+
     @Override
     public String getBotUsername() {
         return botUserName;
     }
 
+
+
     @Override
     public String getBotToken() {
         return botToken;
     }
+
+
 }
 
