@@ -20,6 +20,7 @@ public class NasaBot extends TelegramLongPollingBot {
         botsApi.registerBot(this);
     }
 
+
     /**
      * Processes updates from Telegram.
      *
@@ -55,6 +56,8 @@ public class NasaBot extends TelegramLongPollingBot {
     }
 
 
+
+
     /**
      * Sends a message to the specified chat.
      *
@@ -71,6 +74,8 @@ public class NasaBot extends TelegramLongPollingBot {
             e.printStackTrace();
         }
     }
+
+
 
     @Override
     public String getBotUsername() {
