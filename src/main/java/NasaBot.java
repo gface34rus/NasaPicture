@@ -62,8 +62,6 @@ public class NasaBot extends TelegramLongPollingBot {
         }
     }
 
-
-
     /**
      * Sends a message to the specified chat.
      *
@@ -80,8 +78,6 @@ public class NasaBot extends TelegramLongPollingBot {
             e.printStackTrace();
         }
     }
-
-
     /**
      * Returns the username of the bot.
      *
