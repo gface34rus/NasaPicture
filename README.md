@@ -16,7 +16,7 @@ NaSaPicture - это Telegram-бот, который получает изобр
 2. Установите Apache Maven.
 3. Клонируйте репозиторий на свой компьютер:
    ```bash
-   git clone <URL_репозитория>
+   git clone <https://github.com/gface34rus/NasaPicture>
 Перейдите в директорию проекта:
 COPY
 cd NaSaPicture
