@@ -27,6 +27,7 @@ public class NasaBot extends TelegramLongPollingBot {
 
 
 
+
     /**
      * Processes updates from Telegram.
      *
@@ -63,6 +64,7 @@ public class NasaBot extends TelegramLongPollingBot {
 
 
 
+
     /**
      * Sends a message to the specified chat.
      *
@@ -81,6 +83,7 @@ public class NasaBot extends TelegramLongPollingBot {
     }
 
 
+
     /**
      * Returns the username of the bot.
      *
@@ -90,6 +93,7 @@ public class NasaBot extends TelegramLongPollingBot {
     public String getBotUsername() {
         return botUserName;
     }
+
 
 
     @Override
