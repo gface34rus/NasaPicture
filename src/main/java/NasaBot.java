@@ -14,6 +14,9 @@ public class NasaBot extends TelegramLongPollingBot {
 
 
 
+
+
+
     /**
      * Constructor for NasaBot.
      *
@@ -27,6 +30,9 @@ public class NasaBot extends TelegramLongPollingBot {
         TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
         botsApi.registerBot(this);
     }
+
+
+
 
 
     /**
@@ -64,6 +70,9 @@ public class NasaBot extends TelegramLongPollingBot {
     }
 
 
+
+
+
     /**
      * Sends a message to the specified chat.
      *
@@ -80,6 +89,9 @@ public class NasaBot extends TelegramLongPollingBot {
             e.printStackTrace();
         }
     }
+
+
+
 
 
 
