@@ -4,14 +4,20 @@ public class NasaAnswer {
 
 
     String copyright;
-    String date;
-    String explanation;
-    String hdurl;
-    String media_type;
-    String service_version;
-    String title;
-    String url;
 
+    String date;
+
+    String explanation;
+
+    String hdurl;
+
+    String media_type;
+
+    String service_version;
+
+    String title;
+
+    String url;
 
 
     public NasaAnswer(@JsonProperty("copyright") String copyright,
