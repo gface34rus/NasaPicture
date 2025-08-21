@@ -12,9 +12,6 @@ public class NasaBot extends TelegramLongPollingBot {
     String botToken;
 
 
-
-
-
     /**
      * Constructor for NasaBot.
      *
